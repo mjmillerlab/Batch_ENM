@@ -1,3 +1,5 @@
+#### This is obsolete. Better to run filter_points_Rcode.sh which will generate this file for you in batch mode.
+
 ####How to calculate minimum distance between all points
 
 library(geosphere)
