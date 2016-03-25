@@ -1,0 +1,8 @@
+)
+
+Sim<-data.frame(cbind(x,y))
+as.matrix(sapply(Sim, as.numeric)) 
+out<-distm(Sim, fun=distHaversine)
+write.csv(out, file="~/Desktop/out.csv")
+
+#####Then open up file in excel and look for any rows with output less than 100000 meters (i.e. 10 km)

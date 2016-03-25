@@ -1,0 +1,4 @@
+####How to calculate minimum distance between all points
+
+library(geosphere)
+y <-c(
